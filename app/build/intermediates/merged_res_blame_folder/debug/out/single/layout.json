@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_movie_detail.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/fragment_movie_detail.xml"
+    },
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/upcoming_movie_row.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/upcoming_movie_row.xml"
+    },
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/movie_item.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/movie_item.xml"
+    },
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_movie.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/fragment_movie.xml"
+    },
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popular_movies_row.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/popular_movies_row.xml"
+    },
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/top_rated_movie_row.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/top_rated_movie_row.xml"
+    },
+    {
+        "merged": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/kevinhernandez/AndroidStudioProjects/MovieApp2/app/src/main/res/layout/activity_main.xml"
+    }
+]
