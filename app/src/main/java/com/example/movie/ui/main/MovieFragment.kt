@@ -11,8 +11,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ConcatAdapter
 import com.example.movie.R
 import com.example.movie.core.Resource
+import com.example.movie.data.local.AppDataBase
+import com.example.movie.data.local.LocalMovieDataSource
 import com.example.movie.data.model.Movie
-import com.example.movie.data.remote.MovieDataSource
+import com.example.movie.data.remote.RemoteMovieDataSource
 import com.example.movie.databinding.FragmentMovieBinding
 import com.example.movie.domain.MovieRepositoryImpl
 import com.example.movie.domain.RetrofitClient
@@ -28,7 +30,11 @@ class MovieFragment : Fragment(R.layout.fragment_movie), MoviesAdapter.onMovieCl
 
     private lateinit var concatAdapter: ConcatAdapter
     private lateinit var binding: FragmentMovieBinding
-    private val viewModel by viewModels<MovieViewModel> { MovieViewModelFactory(MovieRepositoryImpl(MovieDataSource(RetrofitClient.webservice))) }
+    private val viewModel by viewModels<MovieViewModel> {
+        MovieViewModelFactory(MovieRepositoryImpl(RemoteMovieDataSource(RetrofitClient.webservice)
+        , LocalMovieDataSource(AppDataBase.getDataBase(requireContext()).movieDao())
+
+        )) }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

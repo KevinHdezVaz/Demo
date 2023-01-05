@@ -1,0 +1,24 @@
+com/example/movie/BuildConfig.java
+ com.example.movie.BuildConfig
+com/example/movie/databinding/FragmentMovieBinding.java
+ com.example.movie.databinding.FragmentMovieBinding
+com/example/movie/databinding/MovieItemBinding.java
+ com.example.movie.databinding.MovieItemBinding
+com/example/movie/data/local/MovieDao_Impl.java
+ com.example.movie.data.local.MovieDao_Impl
+ com.example.movie.data.local.MovieDao_Impl$1
+ com.example.movie.data.local.MovieDao_Impl$2
+ com.example.movie.data.local.MovieDao_Impl$3
+com/example/movie/databinding/UpcomingMovieRowBinding.java
+ com.example.movie.databinding.UpcomingMovieRowBinding
+com/example/movie/databinding/FragmentMovieDetailBinding.java
+ com.example.movie.databinding.FragmentMovieDetailBinding
+com/example/movie/databinding/PopularMoviesRowBinding.java
+ com.example.movie.databinding.PopularMoviesRowBinding
+com/example/movie/databinding/TopRatedMovieRowBinding.java
+ com.example.movie.databinding.TopRatedMovieRowBinding
+com/example/movie/data/local/AppDataBase_Impl.java
+ com.example.movie.data.local.AppDataBase_Impl
+ com.example.movie.data.local.AppDataBase_Impl$1
+com/example/movie/databinding/ActivityMainBinding.java
+ com.example.movie.databinding.ActivityMainBinding
